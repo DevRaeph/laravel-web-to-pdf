@@ -1,0 +1,30 @@
+{
+    "name": "devraeph/laravel-web-to-pdf",
+    "description": "This Package interacts with the DevStorm UrlToPdf Api",
+    "license": "AGPL-3.0-or-later",
+    "authors": [
+        {
+            "name": "Raphael Planer",
+            "email": "r.planer@devstorm.at"
+        }
+    ],
+    "minimum-stability": "dev",
+    "require": {
+        "ext-json": "*"
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "DevRaeph\\WebToPdf\\WebToPDFServiceProvider"
+            ],
+            "aliases": {
+                "WebToPDF": "DevRaeph\\WebToPdf\\Facades\\WebToPDF"
+            }
+        }
+    },
+    "autoload": {
+        "psr-4": {
+            "DevRaeph\\WebToPdf\\": "src/"
+        }
+    }
+}
