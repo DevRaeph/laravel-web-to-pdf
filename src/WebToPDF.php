@@ -139,6 +139,24 @@ class WebToPDF
     }
     /**
      * DevStorm PDF-Generator
+     * @return string Rückgabe = Storage:path()!
+     */
+    public function toPath():string{
+        if($this->storagePath != null){
+            return Storage::path($this->storagePath);
+        }
+    }
+    /**
+     * DevStorm PDF-Generator
+     * @return string Rückgabe = Storage:get()!
+     */
+    public function toGetFile():string{
+        if($this->storagePath != null){
+            return Storage::get($this->storagePath);
+        }
+    }
+    /**
+     * DevStorm PDF-Generator
      * @return string Rückegabe = URL
      */
     public function toUrl():string{
