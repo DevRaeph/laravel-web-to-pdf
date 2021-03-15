@@ -143,7 +143,7 @@ class WebToPDF
      */
     public function toPath():string{
         if($this->storagePath != null){
-            return Storage::path($this->storagePath);
+            return $this->storagePath;
         }
     }
     /**
