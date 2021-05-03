@@ -1,3 +1,5 @@
+<p align="center"><img src="https://i.postimg.cc/nVmxVpyz/Github-Social-Bar.jpg" alt="Social Card of laravel-web-to-pdf"></p>
+
 # DevRaeph / laravel-web-to-pdf
 [![Total Downloads]](https://packagist.org/packages/devraeph/laravel-web-to-pdf)
 [![Latest Stable Version]](https://packagist.org/packages/devraeph/laravel-web-to-pdf)
